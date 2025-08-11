@@ -2,8 +2,6 @@
 
 This script scrapes book data from https://books.toscrape.com and saves it to a CSV file.
 
-
-
 ## Extracted Fields
 
 * Title
@@ -12,8 +10,6 @@ This script scrapes book data from https://books.toscrape.com and saves it to a 
 * Availability
 * Image URL
 
-
-
 ## Tech Stack
 
 * Python
@@ -21,31 +17,24 @@ This script scrapes book data from https://books.toscrape.com and saves it to a 
 * BeautifulSoup
 * pandas
 
-
-
 ## How to run
 
-`ash
+```bash
 python -m venv venv
-.\\venv\\Scripts\\Activate.ps1
+.\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python scraper.py
 
-
-
 ## Output
 
-&nbsp;• CSV file: data/books.csv (1000 rows)
-
-&nbsp;• Screenshot: screenshots/table\_preview.png
-
+- CSV file: data/books.csv (1000 rows)
+- Screenshot: screenshots/table\_preview.png
 
 
 ## Notes
 
-&nbsp;• This project is for educational purposes only and uses an open training website.
-
-&nbsp;• You can adapt the code to scrape other websites (respecting their terms of service).
+- This project is for educational purposes only and uses an open training website.
+- You can adapt the code to scrape other websites (respecting their terms of service).
 
 
 
